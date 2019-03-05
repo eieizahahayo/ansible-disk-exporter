@@ -6,7 +6,7 @@ This script will:
 - Change mode `disk-monitor.sh` to be executable.
 - Place `disk-monitor.cron` at /etc/cron.d.
 ### Prerequisites
-The machine needs to run Node-exporter and the custom-prom data must be at `opt/data/monitor/node-exporter
+The machine needs to run Node-exporter and the custom-prom data must be at `opt/data/monitor/node-exporter`
 
 You can follow this [link](https://git.proteus-tech.com/infrastructure/prometheus-grafana-deploy) to install the Node-expoter.
 
