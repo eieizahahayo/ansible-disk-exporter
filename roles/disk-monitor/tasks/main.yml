@@ -1,0 +1,14 @@
+- name: "Copy disk-monitor-test.sh "
+  template:
+    src: disk-monitor-test.sh
+    dest: /home/card/Desktop/proteus/learning/ansible/ansible-disk-exporter/results
+
+- name: "Copy disk-monitor-cron"
+  copy:
+    src: disk-monitor-cron
+    dest: /etc/cron.d
+
+- name: "Change modify disk-monitor-test.sh"
+  shell: chmod +x disk-monitor-test.sh
+  args:
+    chdir: /home/card/Desktop/proteus/learning/ansible/ansible-disk-exporter/results

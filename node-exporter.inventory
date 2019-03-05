@@ -1,0 +1,5 @@
+[card]
+127.0.0.1
+[card:vars]
+USER=card
+DESTINATION=127.0.0.1

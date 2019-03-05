@@ -1,0 +1,3 @@
+# HELP Disk_used_storage
+# TYPE Disk_used_storage
+node_disk_used_storage 1

@@ -1,0 +1,1 @@
+* * * * * root su -c "/home/card/Desktop/proteus/learning/ansible/ansible-disk-exporter/results/disk-monitor-test.sh" 
