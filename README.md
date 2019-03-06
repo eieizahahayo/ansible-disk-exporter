@@ -14,5 +14,10 @@ You can follow this [link](https://git.proteus-tech.com/infrastructure/prometheu
 ### How to run it
 You can run the scrip using `ansible-playbook -i node-exporter.inventory node-exporter.yml`
 
+You can change variables in `node-exporter.inventory`:
+
+- USER : This variable lets you specify user.
+- DESTINATION :This variable lets you specify the ip of machine you want to run the script.
+
 ### Results
 You can check if everything works properly by query `node_disk_used_storage` in Prometheus or Grafana.
