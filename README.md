@@ -17,7 +17,7 @@ You can run the scrip using `ansible-playbook -i node-exporter.inventory node-ex
 You can change variables in `node-exporter.inventory`:
 
 - USER : This variable lets you specify user.
-- DESTINATION :This variable lets you specify the ip of machine you want to run the script.
+- DESTINATION : This variable lets you specify the ip of machine you want to run the script.
 
 ### Results
 You can check if everything works properly by query `node_disk_used_storage` in Prometheus or Grafana.
